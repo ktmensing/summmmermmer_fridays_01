@@ -1,18 +1,14 @@
 .wrapper {
         display: grid;
-        grid-gap: 1vw;
-        grid-template-columns: 12vw 28vw 28vw 28vw;
+        grid-gap: 0;
+        grid-template-columns: 8vw 30vw 30vw 30vw;
         color: #444;
     }
-
-.cook {
-  font-family: 'UnifrakturCook', cursive;
-}
 
 @media screen and (max-width: 1100px) {
   .wrapper {
         grid-template-columns: 15vw 83vw;
-    grid-gap: 2vw;
+    grid-gap: 0;
     }
   }
 
@@ -45,40 +41,90 @@
   }
 
   .a {
-  grid-column: 2 ;
-  grid-row: 1  / span 2;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  grid-column: 2;
+  grid-row: 1;
   font-size: 150%;
+  margin: auto;
 }
 
 .b {
-  grid-column: 3 ;
+  grid-column: 3;
   grid-row: 1;
+  font-size: 300%;
+  margin: auto;
 }
 
 .c {
-  grid-column: 4 ;
-  grid-row: 1   / span 3;
+  grid-column: 4;
+  grid-row: 1;
+  text-align: center;
   font-family: monospace;
+  font-size: 125%;
+  color: white;
+  background-color: black;
+  padding: 10%;
 }
 
 .d {
-  grid-column: 3 ;
+  grid-column: 2;
   grid-row: 2;
+  margin: auto;
+  font-size: 115%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-style: oblique;
+  font-family: Arial Black;
 }
 
 .e {
-  grid-column: 2 ;
-  grid-row: 3;
+  grid-column: 3;
+  grid-row: 2;
+  font-size: 150%;
+  margin: auto;
 }
 
 .f {
-  grid-column: 3 ;
+  grid-column: 4;
+  grid-row: 2;
+  margin: auto;
+  font-size: 200%;
+}
+
+.g {
+  grid-column: 2;
   grid-row: 3;
-  margin-left: 0;
-  margin-right: auto;
-  font-family: 'UnifrakturCook', cursive;
-  font-size: 180%;
+  font-size: 150%;
+  margin: auto;
+}
+
+.h {
+  grid-column: 3;
+  grid-row: 3;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.i {
+  grid-column: 4;
+  grid-row: 3;
+  font-size: 150%;
+  margin: auto;
+}
+
+.j {
+  grid-column: 2 / span 3;
+  grid-row: 4;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.5vw;
+}
+
+.vote {
+  font-family: Arial Black;
+  font-size: 8vw;
 }
 
 @media screen and (max-width: 1100px) {
@@ -99,37 +145,81 @@
 .a {
   grid-column: 2;
   grid-row: 1;
-  font-family: Arial Black,Arial Bold,Gadget,sans-serif;
+  font-size: 125%;
 }
 
 .b {
   grid-column: 2;
   grid-row: 2;
+  font-size: 300%;
 }
 
 .c {
   grid-column: 2;
   grid-row: 3;
+  text-align: center;
   font-family: monospace;
+  font-size: 125%;
+  color: white;
+  background-color: black;
+  padding: 10%;
 }
 
 .d {
   grid-column: 2;
-  grid-row: 4;
+  grid-row: 6;
+  margin: auto;
+  font-size: 115%;
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-style: oblique;
+  font-family: Arial Black;
 }
 
 .e {
   grid-column: 2;
-  grid-row: 5;
+  grid-row: 4;
+  font-size: 150%;
+  margin: auto;
 }
 
 .f {
+  grid-column: 2;
+  grid-row: 5;
+  font-size: 200%;
+  margin: auto;
+}
+
+.g {
+  grid-column: 2;
+  grid-row: 7;
+  font-size: 150%;
+  margin: auto;
+}
+
+.h {
+  grid-column: 2;
+  grid-row: 8;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.i {
+  grid-column: 2;
+  grid-row: 9;
+  font-size: 150%;
+  margin: auto;
+}
+
+.j {
   grid-column: 1 / span 2;
-  grid-row: 6;
-  margin-left: 0;
-  margin-right: auto;
-  font-family: 'UnifrakturCook', cursive;
-  font-size: 300%;
+  grid-row: 10;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.5vw;
 }
   }
 
